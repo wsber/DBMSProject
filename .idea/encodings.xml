@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/PF/pf_manager.cc" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/PFSuper/PF_BufferPool.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/PagereplacementAlgorithm/CLOCKPageReplacement.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/PagereplacementAlgorithm/CLOCKPageReplacement.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/PagereplacementAlgorithm/LRUPageReplacement.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/PagereplacementAlgorithm/LRUPageReplacement.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/PagereplacementAlgorithm/PF_pageReplacement.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/PagereplacementAlgorithm/PF_pageReplacement.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/RM/rm_filehandle.cc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RM/rm_filescan.cc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RM/rm_manager.cc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RM/rm_record.cc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RM/rm_rid.cc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/main.cpp" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
