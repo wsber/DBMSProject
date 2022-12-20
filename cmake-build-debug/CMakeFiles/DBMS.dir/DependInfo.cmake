@@ -4,6 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/projects/C++Projects/DBMSBaseRedbaseResource/IX/ix_error.cc" "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/CMakeFiles/DBMS.dir/IX/ix_error.cc.obj"
+  "D:/projects/C++Projects/DBMSBaseRedbaseResource/IX/ix_indexhandle.cc" "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.obj"
+  "D:/projects/C++Projects/DBMSBaseRedbaseResource/IX/ix_indexscan.cc" "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.obj"
+  "D:/projects/C++Projects/DBMSBaseRedbaseResource/IX/ix_manager.cc" "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/CMakeFiles/DBMS.dir/IX/ix_manager.cc.obj"
   "D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_buffermgr.cc" "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/CMakeFiles/DBMS.dir/PF/pf_buffermgr.cc.obj"
   "D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_error.cc" "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/CMakeFiles/DBMS.dir/PF/pf_error.cc.obj"
   "D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_filehandle.cc" "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/CMakeFiles/DBMS.dir/PF/pf_filehandle.cc.obj"
@@ -18,6 +22,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/projects/C++Projects/DBMSBaseRedbaseResource/RM/rm_record.cc" "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/CMakeFiles/DBMS.dir/RM/rm_record.cc.obj"
   "D:/projects/C++Projects/DBMSBaseRedbaseResource/RM/rm_rid.cc" "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/CMakeFiles/DBMS.dir/RM/rm_rid.cc.obj"
   "D:/projects/C++Projects/DBMSBaseRedbaseResource/main.cpp" "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/CMakeFiles/DBMS.dir/main.cpp.obj"
+  "D:/projects/C++Projects/DBMSBaseRedbaseResource/printer.cc" "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/CMakeFiles/DBMS.dir/printer.cc.obj"
+  "D:/projects/C++Projects/DBMSBaseRedbaseResource/statistics.cc" "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/CMakeFiles/DBMS.dir/statistics.cc.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

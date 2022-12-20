@@ -80,6 +80,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/IX/ix_error.cc">
+			<Option target="DBMS"/>
+		</Unit>
+		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/IX/ix_indexhandle.cc">
+			<Option target="DBMS"/>
+		</Unit>
+		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/IX/ix_indexscan.cc">
+			<Option target="DBMS"/>
+		</Unit>
+		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/IX/ix_manager.cc">
+			<Option target="DBMS"/>
+		</Unit>
+		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf.h">
+			<Option target="DBMS"/>
+		</Unit>
 		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_buffermgr.cc">
 			<Option target="DBMS"/>
 		</Unit>
@@ -107,6 +122,9 @@
 		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_statistics.cc">
 			<Option target="DBMS"/>
 		</Unit>
+		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/QL/parser.h">
+			<Option target="DBMS"/>
+		</Unit>
 		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/RM/rm_error.cc">
 			<Option target="DBMS"/>
 		</Unit>
@@ -129,6 +147,18 @@
 			<Option target="DBMS"/>
 		</Unit>
 		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/main.cpp">
+			<Option target="DBMS"/>
+		</Unit>
+		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/printer.cc">
+			<Option target="DBMS"/>
+		</Unit>
+		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/printer.h">
+			<Option target="DBMS"/>
+		</Unit>
+		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/statistics.cc">
+			<Option target="DBMS"/>
+		</Unit>
+		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/statistics.h">
 			<Option target="DBMS"/>
 		</Unit>
 		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/CMakeLists.txt">

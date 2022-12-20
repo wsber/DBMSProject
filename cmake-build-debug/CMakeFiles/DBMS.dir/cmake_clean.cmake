@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DBMS.dir/IX/ix_error.cc.obj"
+  "CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.obj"
+  "CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.obj"
+  "CMakeFiles/DBMS.dir/IX/ix_manager.cc.obj"
   "CMakeFiles/DBMS.dir/PF/pf_buffermgr.cc.obj"
   "CMakeFiles/DBMS.dir/PF/pf_error.cc.obj"
   "CMakeFiles/DBMS.dir/PF/pf_filehandle.cc.obj"
@@ -13,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DBMS.dir/RM/rm_record.cc.obj"
   "CMakeFiles/DBMS.dir/RM/rm_rid.cc.obj"
   "CMakeFiles/DBMS.dir/main.cpp.obj"
+  "CMakeFiles/DBMS.dir/printer.cc.obj"
+  "CMakeFiles/DBMS.dir/statistics.cc.obj"
   "DBMS.exe"
   "DBMS.exe.manifest"
   "DBMS.pdb"
