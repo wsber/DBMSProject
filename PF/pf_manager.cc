@@ -76,6 +76,7 @@ RC PF_Manager::CreateFile (const char *fileName)
    hdr->numPages = 0;
 
    // Write header to file
+   cout<<fd<<" "<<hdr->firstFree << " "<< PF_FILE_HDR_SIZE<<"这里在创建文件在写头文件\n";
    if((numBytes = write(fd, hdrBuf, PF_FILE_HDR_SIZE))
          != PF_FILE_HDR_SIZE) {
 

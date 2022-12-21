@@ -308,6 +308,7 @@ RC PF_BufferMgr::AllocatePage(int fd, PageNum pageNum, char **ppBuffer)
 
    // Allocate an empty page
    if ((rc = InternalAlloc(slot)))
+
       return (rc);
 
    // Insert the page into the hash table,
@@ -804,9 +805,10 @@ RC PF_BufferMgr::InternalAlloc(int &slot)
    if (free != INVALID_SLOT) {
       slot = free;
       free = bufTable[slot].next;
+      cout<<"当前要访问的数据表所在的内存页面不在内存缓冲区中，且此时内存缓冲区中空闲块链不为空，此时选择槽号为"<<slot<<"的页作为该数据表内存的加载页\n";
    }
    else {
-
+       cout<<"内存缓冲区中空闲块链为空，执行页面置换算法\n";
       // Choose the least-recently used page that is unpinned
       for (slot = last; slot != INVALID_SLOT; slot = bufTable[slot].prev) {
          if (bufTable[slot].pinCount == 0)
@@ -819,6 +821,7 @@ RC PF_BufferMgr::InternalAlloc(int &slot)
 
       // Write out the page if it is dirty
       if (bufTable[slot].bDirty) {
+          cout<<"此时执行页面置换算法的页在内存缓冲区槽号为"<<slot<<"，且该页为脏页，需要写回磁盘\n";
          if ((rc = WritePage(bufTable[slot].fd, bufTable[slot].pageNum,
                bufTable[slot].pData)))
             return (rc);
@@ -901,7 +904,6 @@ RC PF_BufferMgr::WritePage(int fd, PageNum pageNum, char *source)
 #ifdef PF_STATS
    pStatisticsMgr->Register(PF_WRITEPAGE, STAT_ADDONE);
 #endif
-
    // seek to the appropriate place (cast to long for PC's)
    long offset = pageNum * (long)pageSize + PF_FILE_HDR_SIZE;
    if (lseek(fd, offset, L_SET) < 0)
