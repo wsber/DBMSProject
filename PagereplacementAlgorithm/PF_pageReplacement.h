@@ -4,9 +4,9 @@
 
 #ifndef DBMS_PF_PAGEREPLACEMENT_H
 #define DBMS_PF_PAGEREPLACEMENT_H
-#include "../PF/pf.h"
-#include "../PF/PF_internal.h"
-#include "../PF/PF_HashTable.h"
+//#include "../PFSuper/pfSuper.h"
+#include "../PFSuper/PF_internal.h"
+#include "../PFSuper/PF_HashTable.h"
 #include <iostream>
 #define INVALID_SLOT  (-1)
 

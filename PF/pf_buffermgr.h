@@ -39,6 +39,7 @@ public:
 
     PF_BufferMgr     (int numPages);             // Constructor - allocate
                                                   // numPages buffer pages
+    PF_BufferMgr(int numPages, int pageSize);
     ~PF_BufferMgr    ();                         // Destructor
 
     // Read pageNum into buffer, point *ppBuffer to location

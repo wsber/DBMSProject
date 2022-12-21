@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug"/>
+				<Option working_dir="D:/projects/C++Projects/DBMSJobOne/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DBMS">
-				<Option output="D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/DBMS.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug"/>
+				<Option output="D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/DBMS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/C++Projects/DBMSJobOne/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="D:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 DBMS"/>
-					<CompileFile command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 DBMS"/>
+					<CompileFile command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DBMS/fast">
-				<Option output="D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/DBMS.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug"/>
+				<Option output="D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/DBMS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/C++Projects/DBMSJobOne/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,115 +53,97 @@
 					<Add directory="D:/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 DBMS/fast"/>
-					<CompileFile command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 DBMS/fast"/>
+					<CompileFile command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug"/>
+				<Option working_dir="D:/projects/C++Projects/DBMSJobOne/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug"/>
+				<Option working_dir="D:/projects/C++Projects/DBMSJobOne/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/IX/ix_error.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/PF/pf_buffermgr.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/IX/ix_indexhandle.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/PF/pf_buffermgr.h">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/IX/ix_indexscan.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/PF/pf_error.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/IX/ix_manager.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/PF/pf_filehandle.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf.h">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/PF/pf_hashtable.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_buffermgr.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/PF/pf_hashtable.h">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_buffermgr.h">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/PF/pf_manager.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_error.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/PF/pf_pagehandle.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_filehandle.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/PF/pf_statistics.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_hashtable.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/RM/rm_error.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_hashtable.h">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/RM/rm_filehandle.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_manager.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/RM/rm_filescan.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_pagehandle.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/RM/rm_manager.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/PF/pf_statistics.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/RM/rm_record.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/QL/parser.h">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/RM/rm_rid.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/RM/rm_error.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/RM/rm_rid.h">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/RM/rm_filehandle.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/main.cpp">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/RM/rm_filescan.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/printer.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/RM/rm_manager.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/printer.h">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/RM/rm_record.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/statistics.cc">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/RM/rm_rid.cc">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/statistics.h">
 			<Option target="DBMS"/>
 		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/RM/rm_rid.h">
-			<Option target="DBMS"/>
-		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/main.cpp">
-			<Option target="DBMS"/>
-		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/printer.cc">
-			<Option target="DBMS"/>
-		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/printer.h">
-			<Option target="DBMS"/>
-		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/statistics.cc">
-			<Option target="DBMS"/>
-		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/statistics.h">
-			<Option target="DBMS"/>
-		</Unit>
-		<Unit filename="D:/projects/C++Projects/DBMSBaseRedbaseResource/CMakeLists.txt">
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

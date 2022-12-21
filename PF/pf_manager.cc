@@ -9,6 +9,8 @@
 #include <sys/types.h>
 #include "pf_internal.h"
 #include "pf_buffermgr.h"
+#include "pf.h"
+
 
 //
 // PF_Manager
@@ -24,6 +26,9 @@ PF_Manager::PF_Manager()
    pBufferMgr = new PF_BufferMgr(PF_BUFFER_SIZE);
 }
 
+PF_Manager::PF_Manager(int bufferNum,int pageSize) {
+    pBufferMgr = new PF_BufferMgr(bufferNum,pageSize);
+}
 //
 // ~PF_Manager
 //
@@ -60,7 +65,7 @@ RC PF_Manager::CreateFile (const char *fileName)
 
    // Initialize the file header: must reserve FileHdrSize bytes in memory
    // though the actual size of FileHdr is smaller
-   cout<<fd<<"这是文件描述符"<<endl;
+   cout<<fd<<"这是文件描述符,文件创建成功"<<endl;
    char hdrBuf[PF_FILE_HDR_SIZE];
 
    // So that Purify doesn't complain
@@ -281,3 +286,5 @@ RC PF_Manager::DisposeBlock(char *buffer)
 {
    return pBufferMgr->DisposeBlock(buffer);
 }
+
+

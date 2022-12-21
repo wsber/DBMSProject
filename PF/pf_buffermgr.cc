@@ -122,6 +122,46 @@ PF_BufferMgr::PF_BufferMgr(int _numPages) : hashTable(PF_HASH_TBL_SIZE)
 #endif
 }
 
+
+PF_BufferMgr::PF_BufferMgr(int numPages, int pageSize) : hashTable(PF_HASH_TBL_SIZE){
+    // Initialize local variables
+    this->numPages = numPages;
+    this->pageSize = pageSize - sizeof(int) + sizeof(PF_PageHdr);
+
+#ifdef PF_STATS
+    // Initialize the global variable for the statistics manager
+   pStatisticsMgr = new StatisticsMgr();
+#endif
+
+#ifdef PF_LOG
+    char psMessage[100];
+   sprintf (psMessage, "Creating buffer manager. %d pages of size %d.\n",
+         numPages, PF_PAGE_SIZE+sizeof(PF_PageHdr));
+   WriteLog(psMessage);
+#endif
+
+    // Allocate memory for buffer page description table
+    bufTable = new PF_BufPageDesc[numPages];
+
+    // Initialize the buffer table and allocate memory for buffer pages.
+    // Initially, the free list contains all pages
+    for (int i = 0; i < numPages; i++) {
+        if ((bufTable[i].pData = new char[pageSize]) == NULL) {
+            cerr << "Not enough memory for buffer\n";
+            exit(1);
+        }
+        memset ((void *)bufTable[i].pData, 0, pageSize);
+        bufTable[i].prev = i - 1;
+        bufTable[i].next = i + 1;
+    }
+    bufTable[0].prev = bufTable[numPages - 1].next = INVALID_SLOT;
+    free = 0;
+    first = last = INVALID_SLOT;
+
+#ifdef PF_LOG
+    WriteLog("Succesfully created the buffer manager.\n");
+#endif
+}
 //
 // ~PF_BufferMgr
 //

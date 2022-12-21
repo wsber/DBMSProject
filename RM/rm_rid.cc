@@ -60,3 +60,13 @@ RC RID::isValidRID() const{
   else
     return RM_INVALIDRID;
 }
+
+RC RID::setPageNum(PageNum pageNum) {
+    this->page = pageNum;
+    return 0;
+}
+
+RC RID::setSlotNum(SlotNum slotNum) {
+    this->slot = slotNum;
+    return 0;
+}

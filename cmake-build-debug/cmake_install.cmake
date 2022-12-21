@@ -1,4 +1,4 @@
-# Install script for directory: D:/projects/C++Projects/DBMSBaseRedbaseResource
+# Install script for directory: D:/projects/C++Projects/DBMSJobOne
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/projects/C++Projects/DBMSBaseRedbaseResource/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/projects/C++Projects/DBMSJobOne/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

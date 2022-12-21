@@ -110,6 +110,7 @@ private:
 class PF_Manager {
 public:
    PF_Manager    ();                              // Constructor
+   PF_Manager(int bufferNum ,int pageSize);
    ~PF_Manager   ();                              // Destructor
    RC CreateFile    (const char *fileName);       // Create a new file
    RC DestroyFile   (const char *fileName);       // Delete a file
