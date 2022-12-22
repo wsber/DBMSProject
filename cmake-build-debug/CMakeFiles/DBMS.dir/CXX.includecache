@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+D:/projects/C++Projects/DBMSJobOne/IX/ix.h
+../redbase.h
+D:/projects/C++Projects/DBMSJobOne/redbase.h
+../RM/rm_rid.h
+D:/projects/C++Projects/DBMSJobOne/RM/rm_rid.h
+../PF/pf.h
+D:/projects/C++Projects/DBMSJobOne/PF/pf.h
+string
+-
+stdlib.h
+-
+cstring
+-
+
 D:/projects/C++Projects/DBMSJobOne/PF/pf.h
 ../redbase.h
 D:/projects/C++Projects/DBMSJobOne/redbase.h
@@ -45,6 +59,8 @@ RM/rm.h
 D:/projects/C++Projects/DBMSJobOne/RM/rm.h
 fcntl.h
 -
+IX/ix.h
+D:/projects/C++Projects/DBMSJobOne/IX/ix.h
 
 D:/projects/C++Projects/DBMSJobOne/redbase.h
 

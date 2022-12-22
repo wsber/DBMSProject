@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/IX/ix_error.cc">
+			<Option target="DBMS"/>
+		</Unit>
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/IX/ix_indexhandle.cc">
+			<Option target="DBMS"/>
+		</Unit>
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/IX/ix_indexscan.cc">
+			<Option target="DBMS"/>
+		</Unit>
+		<Unit filename="D:/projects/C++Projects/DBMSJobOne/IX/ix_manager.cc">
+			<Option target="DBMS"/>
+		</Unit>
 		<Unit filename="D:/projects/C++Projects/DBMSJobOne/PF/pf_buffermgr.cc">
 			<Option target="DBMS"/>
 		</Unit>

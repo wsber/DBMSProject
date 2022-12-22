@@ -8,6 +8,7 @@
 #include "redbase.h"
 #include "RM/rm.h"
 #include <fcntl.h>
+#include "IX/ix.h"
 
 
 using namespace std ;
@@ -63,7 +64,7 @@ int main() {
     currentPosition = "D:\\系统默认\\桌面\\数据库应用程序设计\\myredbase\\Data\\course.data";
     RM_Manager rmm(pfm);
     //创建数据表
-//    rmm.CreateFile(currentPosition,50);
+    rmm.CreateFile(currentPosition,50);
     RM_FileHandle relFH;
     //打开该数据表
     rmm.OpenFile(currentPosition,relFH);
@@ -75,6 +76,12 @@ int main() {
     //根据记录的RID查得到该记录
     RM_Record rec ;
     char * pData;
+    relFH.InsertRec("001 database 40 6 001",recRID);
+    relFH.InsertRec("002 c 40 6 001",recRID);
+    relFH.InsertRec("003 os 40 6 001",recRID);
+    relFH.InsertRec("004 sa 40 6 001",recRID);
+    relFH.InsertRec("005 ssad 40 6 001",recRID);
+
 //    for(int i =0 ; i < 10000 ;i++){
 //        relFH.InsertRec("001 database 40 6 001",recRID);
 ////        recRID.GetPageNum(pageNum);
@@ -84,10 +91,12 @@ int main() {
 
 //    recRID.setPageNum(1);
 //    recRID.setSlotNum(0);
-    relFH.GetRec(recRID,rec);
-    cout<<rec.GetData(pData)<<"这是判断是否成功\n";
-    cout<<pData<<"这是data\n";
+//    relFH.GetRec(recRID,rec);
+//    cout<<rec.GetData(pData)<<"这是判断是否成功\n";
+//    cout<<pData<<"这是data\n";
     rmm.CloseFile(relFH);
+
+
 
 //    relFH.InsertRec("002 dataStructure 40 6 003",recRID);
 //    recRID.GetPageNum(pageNum);
@@ -139,4 +148,13 @@ int main() {
 //char *recbuf = new char [s.size()];
 //strcpy(recbuf,s.c_str());
 
-
+//IX_Manager ixm(pfm);
+//ixm.CreateIndex("D:\\系统默认\\桌面\\数据库应用程序设计\\myredbase\\Data\\course.data",1,STRING,10);
+//IX_IndexHandle ixh;
+//ixm.OpenIndex("D:\\系统默认\\桌面\\数据库应用程序设计\\myredbase\\Data\\course.data",1,ixh);
+//cout<<ixh.InsertEntry((void*)"database",*(new RID(1,0)));
+//cout<<ixh.InsertEntry((void*)"c",*(new RID(1,0)));
+//cout<<ixh.InsertEntry((void*)"os",*(new RID(1,1)));
+//ixh.InsertEntry((void*)"sa",*(new RID(1,2)));
+//ixh.InsertEntry((void*)"ssad",*(new RID(1,3)));
+//ixh.PrintIndex();

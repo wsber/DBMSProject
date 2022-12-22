@@ -122,6 +122,114 @@ DBMS/fast:
 	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/build
 .PHONY : DBMS/fast
 
+IX/ix_error.obj: IX/ix_error.cc.obj
+
+.PHONY : IX/ix_error.obj
+
+# target to build an object file
+IX/ix_error.cc.obj:
+	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/IX/ix_error.cc.obj
+.PHONY : IX/ix_error.cc.obj
+
+IX/ix_error.i: IX/ix_error.cc.i
+
+.PHONY : IX/ix_error.i
+
+# target to preprocess a source file
+IX/ix_error.cc.i:
+	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/IX/ix_error.cc.i
+.PHONY : IX/ix_error.cc.i
+
+IX/ix_error.s: IX/ix_error.cc.s
+
+.PHONY : IX/ix_error.s
+
+# target to generate assembly for a file
+IX/ix_error.cc.s:
+	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/IX/ix_error.cc.s
+.PHONY : IX/ix_error.cc.s
+
+IX/ix_indexhandle.obj: IX/ix_indexhandle.cc.obj
+
+.PHONY : IX/ix_indexhandle.obj
+
+# target to build an object file
+IX/ix_indexhandle.cc.obj:
+	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.obj
+.PHONY : IX/ix_indexhandle.cc.obj
+
+IX/ix_indexhandle.i: IX/ix_indexhandle.cc.i
+
+.PHONY : IX/ix_indexhandle.i
+
+# target to preprocess a source file
+IX/ix_indexhandle.cc.i:
+	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.i
+.PHONY : IX/ix_indexhandle.cc.i
+
+IX/ix_indexhandle.s: IX/ix_indexhandle.cc.s
+
+.PHONY : IX/ix_indexhandle.s
+
+# target to generate assembly for a file
+IX/ix_indexhandle.cc.s:
+	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.s
+.PHONY : IX/ix_indexhandle.cc.s
+
+IX/ix_indexscan.obj: IX/ix_indexscan.cc.obj
+
+.PHONY : IX/ix_indexscan.obj
+
+# target to build an object file
+IX/ix_indexscan.cc.obj:
+	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.obj
+.PHONY : IX/ix_indexscan.cc.obj
+
+IX/ix_indexscan.i: IX/ix_indexscan.cc.i
+
+.PHONY : IX/ix_indexscan.i
+
+# target to preprocess a source file
+IX/ix_indexscan.cc.i:
+	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.i
+.PHONY : IX/ix_indexscan.cc.i
+
+IX/ix_indexscan.s: IX/ix_indexscan.cc.s
+
+.PHONY : IX/ix_indexscan.s
+
+# target to generate assembly for a file
+IX/ix_indexscan.cc.s:
+	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.s
+.PHONY : IX/ix_indexscan.cc.s
+
+IX/ix_manager.obj: IX/ix_manager.cc.obj
+
+.PHONY : IX/ix_manager.obj
+
+# target to build an object file
+IX/ix_manager.cc.obj:
+	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/IX/ix_manager.cc.obj
+.PHONY : IX/ix_manager.cc.obj
+
+IX/ix_manager.i: IX/ix_manager.cc.i
+
+.PHONY : IX/ix_manager.i
+
+# target to preprocess a source file
+IX/ix_manager.cc.i:
+	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/IX/ix_manager.cc.i
+.PHONY : IX/ix_manager.cc.i
+
+IX/ix_manager.s: IX/ix_manager.cc.s
+
+.PHONY : IX/ix_manager.s
+
+# target to generate assembly for a file
+IX/ix_manager.cc.s:
+	$(MAKE) -f CMakeFiles\DBMS.dir\build.make CMakeFiles/DBMS.dir/IX/ix_manager.cc.s
+.PHONY : IX/ix_manager.cc.s
+
 PF/pf_buffermgr.obj: PF/pf_buffermgr.cc.obj
 
 .PHONY : PF/pf_buffermgr.obj
@@ -563,6 +671,18 @@ help:
 	@echo ... DBMS
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... IX/ix_error.obj
+	@echo ... IX/ix_error.i
+	@echo ... IX/ix_error.s
+	@echo ... IX/ix_indexhandle.obj
+	@echo ... IX/ix_indexhandle.i
+	@echo ... IX/ix_indexhandle.s
+	@echo ... IX/ix_indexscan.obj
+	@echo ... IX/ix_indexscan.i
+	@echo ... IX/ix_indexscan.s
+	@echo ... IX/ix_manager.obj
+	@echo ... IX/ix_manager.i
+	@echo ... IX/ix_manager.s
 	@echo ... PF/pf_buffermgr.obj
 	@echo ... PF/pf_buffermgr.i
 	@echo ... PF/pf_buffermgr.s

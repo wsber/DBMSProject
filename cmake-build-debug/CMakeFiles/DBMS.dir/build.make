@@ -238,9 +238,61 @@ CMakeFiles/DBMS.dir/RM/rm_rid.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBMS.dir/RM/rm_rid.cc.s"
 	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\C++Projects\DBMSJobOne\RM\rm_rid.cc -o CMakeFiles\DBMS.dir\RM\rm_rid.cc.s
 
+CMakeFiles/DBMS.dir/IX/ix_error.cc.obj: CMakeFiles/DBMS.dir/flags.make
+CMakeFiles/DBMS.dir/IX/ix_error.cc.obj: ../IX/ix_error.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\C++Projects\DBMSJobOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DBMS.dir/IX/ix_error.cc.obj"
+	D:\mingw64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DBMS.dir\IX\ix_error.cc.obj -c D:\projects\C++Projects\DBMSJobOne\IX\ix_error.cc
+
+CMakeFiles/DBMS.dir/IX/ix_error.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBMS.dir/IX/ix_error.cc.i"
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\C++Projects\DBMSJobOne\IX\ix_error.cc > CMakeFiles\DBMS.dir\IX\ix_error.cc.i
+
+CMakeFiles/DBMS.dir/IX/ix_error.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBMS.dir/IX/ix_error.cc.s"
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\C++Projects\DBMSJobOne\IX\ix_error.cc -o CMakeFiles\DBMS.dir\IX\ix_error.cc.s
+
+CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.obj: CMakeFiles/DBMS.dir/flags.make
+CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.obj: ../IX/ix_indexhandle.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\C++Projects\DBMSJobOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.obj"
+	D:\mingw64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DBMS.dir\IX\ix_indexhandle.cc.obj -c D:\projects\C++Projects\DBMSJobOne\IX\ix_indexhandle.cc
+
+CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.i"
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\C++Projects\DBMSJobOne\IX\ix_indexhandle.cc > CMakeFiles\DBMS.dir\IX\ix_indexhandle.cc.i
+
+CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.s"
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\C++Projects\DBMSJobOne\IX\ix_indexhandle.cc -o CMakeFiles\DBMS.dir\IX\ix_indexhandle.cc.s
+
+CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.obj: CMakeFiles/DBMS.dir/flags.make
+CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.obj: ../IX/ix_indexscan.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\C++Projects\DBMSJobOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.obj"
+	D:\mingw64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DBMS.dir\IX\ix_indexscan.cc.obj -c D:\projects\C++Projects\DBMSJobOne\IX\ix_indexscan.cc
+
+CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.i"
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\C++Projects\DBMSJobOne\IX\ix_indexscan.cc > CMakeFiles\DBMS.dir\IX\ix_indexscan.cc.i
+
+CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.s"
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\C++Projects\DBMSJobOne\IX\ix_indexscan.cc -o CMakeFiles\DBMS.dir\IX\ix_indexscan.cc.s
+
+CMakeFiles/DBMS.dir/IX/ix_manager.cc.obj: CMakeFiles/DBMS.dir/flags.make
+CMakeFiles/DBMS.dir/IX/ix_manager.cc.obj: ../IX/ix_manager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\C++Projects\DBMSJobOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/DBMS.dir/IX/ix_manager.cc.obj"
+	D:\mingw64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DBMS.dir\IX\ix_manager.cc.obj -c D:\projects\C++Projects\DBMSJobOne\IX\ix_manager.cc
+
+CMakeFiles/DBMS.dir/IX/ix_manager.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBMS.dir/IX/ix_manager.cc.i"
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\C++Projects\DBMSJobOne\IX\ix_manager.cc > CMakeFiles\DBMS.dir\IX\ix_manager.cc.i
+
+CMakeFiles/DBMS.dir/IX/ix_manager.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBMS.dir/IX/ix_manager.cc.s"
+	D:\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\C++Projects\DBMSJobOne\IX\ix_manager.cc -o CMakeFiles\DBMS.dir\IX\ix_manager.cc.s
+
 CMakeFiles/DBMS.dir/statistics.cc.obj: CMakeFiles/DBMS.dir/flags.make
 CMakeFiles/DBMS.dir/statistics.cc.obj: ../statistics.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\C++Projects\DBMSJobOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DBMS.dir/statistics.cc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\C++Projects\DBMSJobOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/DBMS.dir/statistics.cc.obj"
 	D:\mingw64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DBMS.dir\statistics.cc.obj -c D:\projects\C++Projects\DBMSJobOne\statistics.cc
 
 CMakeFiles/DBMS.dir/statistics.cc.i: cmake_force
@@ -253,7 +305,7 @@ CMakeFiles/DBMS.dir/statistics.cc.s: cmake_force
 
 CMakeFiles/DBMS.dir/printer.cc.obj: CMakeFiles/DBMS.dir/flags.make
 CMakeFiles/DBMS.dir/printer.cc.obj: ../printer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\C++Projects\DBMSJobOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DBMS.dir/printer.cc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\projects\C++Projects\DBMSJobOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/DBMS.dir/printer.cc.obj"
 	D:\mingw64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DBMS.dir\printer.cc.obj -c D:\projects\C++Projects\DBMSJobOne\printer.cc
 
 CMakeFiles/DBMS.dir/printer.cc.i: cmake_force
@@ -280,6 +332,10 @@ DBMS_OBJECTS = \
 "CMakeFiles/DBMS.dir/RM/rm_manager.cc.obj" \
 "CMakeFiles/DBMS.dir/RM/rm_record.cc.obj" \
 "CMakeFiles/DBMS.dir/RM/rm_rid.cc.obj" \
+"CMakeFiles/DBMS.dir/IX/ix_error.cc.obj" \
+"CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.obj" \
+"CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.obj" \
+"CMakeFiles/DBMS.dir/IX/ix_manager.cc.obj" \
 "CMakeFiles/DBMS.dir/statistics.cc.obj" \
 "CMakeFiles/DBMS.dir/printer.cc.obj"
 
@@ -300,13 +356,17 @@ DBMS.exe: CMakeFiles/DBMS.dir/RM/rm_filescan.cc.obj
 DBMS.exe: CMakeFiles/DBMS.dir/RM/rm_manager.cc.obj
 DBMS.exe: CMakeFiles/DBMS.dir/RM/rm_record.cc.obj
 DBMS.exe: CMakeFiles/DBMS.dir/RM/rm_rid.cc.obj
+DBMS.exe: CMakeFiles/DBMS.dir/IX/ix_error.cc.obj
+DBMS.exe: CMakeFiles/DBMS.dir/IX/ix_indexhandle.cc.obj
+DBMS.exe: CMakeFiles/DBMS.dir/IX/ix_indexscan.cc.obj
+DBMS.exe: CMakeFiles/DBMS.dir/IX/ix_manager.cc.obj
 DBMS.exe: CMakeFiles/DBMS.dir/statistics.cc.obj
 DBMS.exe: CMakeFiles/DBMS.dir/printer.cc.obj
 DBMS.exe: CMakeFiles/DBMS.dir/build.make
 DBMS.exe: CMakeFiles/DBMS.dir/linklibs.rsp
 DBMS.exe: CMakeFiles/DBMS.dir/objects1.rsp
 DBMS.exe: CMakeFiles/DBMS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\projects\C++Projects\DBMSJobOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable DBMS.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\projects\C++Projects\DBMSJobOne\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable DBMS.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DBMS.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

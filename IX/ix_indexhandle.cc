@@ -33,7 +33,7 @@ RC IX_IndexHandle::PrintIndex(){
     int curr_idx = lheader->firstSlotIndex;
     while(curr_idx != NO_MORE_SLOTS){
       printf("\n");
-      printer((void *)keys + curr_idx*header.attr_length, header.attr_length);
+//      printer((void *)keys + curr_idx*header.attr_length, header.attr_length);
       if(entries[curr_idx].isValid == OCCUPIED_DUP){
         //printf("is a duplicate\n");
         PageNum bucketPage = entries[curr_idx].page;
