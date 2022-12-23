@@ -65,7 +65,7 @@ int main() {
 
     RM_Manager rmm(pfm);
     //创建数据表
-//    rmm.CreateFile(currentPosition,50);
+    rmm.CreateFile(currentPosition,50);
     RM_FileHandle relFH;
     //打开该数据表
     rmm.OpenFile(currentPosition,relFH);
@@ -77,15 +77,16 @@ int main() {
     //根据记录的RID查得到该记录
 
 
-//    for(int i =0 ; i < 10000 ;i++){
-//        string tmp = to_string(i+1)+ " database 40 6 001";
-//        relFH.InsertRec(const_cast<char *>(tmp.c_str()),recRID);
-//        recRID.GetPageNum(pageNum);
-//        recRID.GetSlotNum(slotNum);
-//        cout<<"这里是该记录的RID： "<<"该记录插入的页号："<<pageNum<<"  该记录插入该页的槽号"<<slotNum<<"\n";
-//    }
+    for(int i =0 ; i < 10000 ;i++){
+        string tmp = to_string(i+1)+ " database 40 6 001";
+        relFH.InsertRec(const_cast<char *>(tmp.c_str()),recRID);
+        recRID.GetPageNum(pageNum);
+        recRID.GetSlotNum(slotNum);
+        cout<<"这里是该记录的RID： "<<"该记录插入的页号："<<pageNum<<"  该记录插入该页的槽号"<<slotNum<<"\n";
+    }
 
-    for(int i = 1 ; i <= 124  ;i++){
+    //下面为从该表内将这一万条记录读出来，在主存大小40MB，页面大小4096kb的情况下
+    /*for(int i = 1 ; i <= 124  ;i++){
         recRID.setPageNum(i);
         for(int j = 0 ; j <= 80 ; j++){
                RM_Record rec ;
@@ -95,7 +96,7 @@ int main() {
                rec.GetData(pData);
                cout<<"这是插入表中得记录: "<<pData<<"\n";
         }
-    }
+    }*/
     rmm.CloseFile(relFH);
 
 
