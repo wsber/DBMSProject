@@ -65,7 +65,7 @@ RC PF_Manager::CreateFile (const char *fileName)
 
    // Initialize the file header: must reserve FileHdrSize bytes in memory
    // though the actual size of FileHdr is smaller
-   cout<<fd<<"这是文件描述符,文件创建成功"<<endl;
+   cout<<"这是该数据表的文件描述符： "<<fd<<endl;
    char hdrBuf[PF_FILE_HDR_SIZE];
 
    // So that Purify doesn't complain
@@ -76,7 +76,7 @@ RC PF_Manager::CreateFile (const char *fileName)
    hdr->numPages = 0;
 
    // Write header to file
-   cout<<fd<<" "<<hdr->firstFree << " "<< PF_FILE_HDR_SIZE<<"这里在创建文件在写头文件\n";
+//   cout<<fd<<" "<<hdr->firstFree << " "<< PF_FILE_HDR_SIZE<<"这里在创建文件在写头文件\n";
    if((numBytes = write(fd, hdrBuf, PF_FILE_HDR_SIZE))
          != PF_FILE_HDR_SIZE) {
 
@@ -211,7 +211,7 @@ RC PF_Manager::CloseFile(PF_FileHandle &fileHandle)
    // Reset the buffer manager pointer in the file handle
    fileHandle.pBufferMgr = NULL;
 
-   cout<<"文件关闭成功";
+   cout<<"文件关闭成功"<<endl;
    // Return ok
    return 0;
 }

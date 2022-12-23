@@ -805,10 +805,10 @@ RC PF_BufferMgr::InternalAlloc(int &slot)
    if (free != INVALID_SLOT) {
       slot = free;
       free = bufTable[slot].next;
-      cout<<"当前要访问的数据表所在的内存页面不在内存缓冲区中，且此时内存缓冲区中空闲块链不为空，此时选择槽号为"<<slot<<"的页作为该数据表内存的加载页\n";
+//      cout<<"当前要访问的数据表所在的外存页面不在内存缓冲区中，且此时内存缓冲区中空闲块链不为空，此时选择槽号为"<<slot<<"的页作为该数据表内存的加载页\n";
    }
    else {
-       cout<<"内存缓冲区中空闲块链为空，执行页面置换算法\n";
+//       cout<<"内存缓冲区中空闲块链为空，执行页面置换算法\n";
       // Choose the least-recently used page that is unpinned
       for (slot = last; slot != INVALID_SLOT; slot = bufTable[slot].prev) {
          if (bufTable[slot].pinCount == 0)
@@ -821,7 +821,7 @@ RC PF_BufferMgr::InternalAlloc(int &slot)
 
       // Write out the page if it is dirty
       if (bufTable[slot].bDirty) {
-          cout<<"此时执行页面置换算法的页在内存缓冲区槽号为"<<slot<<"，且该页为脏页，需要写回磁盘\n";
+//          cout<<"此时执行页面置换算法的页在内存缓冲区槽号为"<<slot<<"，且该页为脏页，需要写回磁盘\n";
          if ((rc = WritePage(bufTable[slot].fd, bufTable[slot].pageNum,
                bufTable[slot].pData)))
             return (rc);
